@@ -1,0 +1,111 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hey",
+        "Hello",
+        "Good day",
+        "Hey there",
+        "Greetings"
+      ],
+      "responses": [
+        "Hello!",
+        "Hi there!",
+        "Hey!",
+        "Hi, how can I assist you?",
+        "Hello, how can I help?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "Goodbye",
+        "Bye",
+        "See you later",
+        "Take care",
+        "Farewell"
+      ],
+      "responses": [
+        "Goodbye! Have a great day!",
+        "See you later!",
+        "Farewell! Come back soon.",
+        "Take care!"
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": [
+        "Thanks",
+        "Thank you",
+        "Appreciate it",
+        "Thanks a lot"
+      ],
+      "responses": [
+        "You're welcome!",
+        "No problem!",
+        "Glad I could help!",
+        "Anytime!"
+      ]
+    },
+    {
+      "tag": "Shoes",
+      "patterns": [
+        "What kind of shoes do you have?",
+        "Can you tell me about your shoe collection?",
+        "What types of shoes are available?",
+        "Do you sell shoes?"
+      ],
+      "responses": [
+        "We offer a wide range of shoes for different purposes and styles.",
+        "Our shoe collection includes athletic shoes, casual shoes, formal shoes, and more.",
+        "We have a variety of shoe options to choose from. What type of shoe are you looking for?"
+      ]
+    },
+    {
+      "tag": "pay",
+      "patterns": [
+        "Do you accept credit cards?",
+        "What payment methods do you accept?",
+        "Can I pay with PayPal?",
+        "Do you take cash?",
+        "How can I make a payment?"
+      ],
+      "responses": [
+        "We accept major credit cards such as VISA and Mastercard.",
+        "You can pay with credit cards, PayPal, or cash.",
+        "We offer multiple payment options including credit cards, PayPal, and cash."
+      ]
+    },
+    {
+      "tag": "delivery",
+      "patterns": [
+        "How long does delivery take?",
+        "What is the shipping time?",
+        "When will I receive my order?",
+        "How soon can I expect delivery?"
+      ],
+      "responses": [
+        "Delivery usually takes 2-4 business days.",
+        "The shipping time is typically 2-4 days.",
+        "You can expect to receive your order within 2-4 business days."
+      ]
+    },
+    {
+      "tag": "items",
+      "patterns": [
+        "What products do you sell?",
+        "Can you tell me about your inventory?",
+        "What items are available?",
+        "Do you have any special offers?"
+      ],
+      "responses": [
+        "We have a wide range of products including shoes, clothing, and accessories.",
+        "Our inventory includes shoes, apparel, and accessories from various brands.",
+        "We offer a diverse selection of products, including shoes, clothing, and accessories.",
+        "We frequently have special offers and promotions. Is there anything specific you're interested in?"
+      ]
+    }
+  ]
+}
